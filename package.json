@@ -1,0 +1,14 @@
+{
+  "name": "coveragefit",
+  "version": "3.20.8",
+  "private": true,
+  "description": "CoverageFit with resilient Agent Workspace customer-report recovery, privacy-safe new-review producer email alerts, an evidence-aware consultation handoff, Cloudflare Pages Functions and D1, private prospect reports, workflow management, and pipeline reporting.",
+  "scripts": {
+    "test": "node RUN_REGRESSION_SUITE.js",
+    "cloudflare:dev": "wrangler pages dev .",
+    "cloudflare:functions:build": "wrangler pages functions build --outdir=.cloudflare/functions-dist"
+  },
+  "devDependencies": {
+    "wrangler": "4.114.0"
+  }
+}
